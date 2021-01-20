@@ -1,0 +1,38 @@
+Shaevaun Morlis
+16 January 2021
+C# HW#4
+
+1. What are all possible values of Boolean expression? Boolean has two possible values (true or false)
+2. List the equality operators. List the relational operators. List the logical operators. How are they the
+same? How are they different?
+Equality ==, !=
+Relational <, <=,>,>=
+Logical &&, ||
+3. What is the general concept of short circuiting? This question has a short and simple answer and you
+do not need to have a detailed response. In C#, && and || are short-circuited, meaning that the first condition is evaluated and the rest is ignored if the answer is determined.
+4. What are the difference in how short circuiting works for && and ||? The outcome of the && operator is true if and only if both of the Boolean expressions it’s evaluating are true. The outcome of the || operator is true if either of the Boolean expressions it evaluates is true. You use the || operator to determine whether any one of a combination of Boolean expressions is true.  
+5. Look at the list of operators. What operator has the highest precedence? Which has the lowest?
+() Highest. = lowest
+6. In an if or else construction using multiple lines of code, what effect does the use of curly braces have?  Now if there is multiple statement without curly braces then statement only after the "if" condition get affected and rest of the statement will get executed separately but will be look like they are executing as part of if() condition, thinking of which is wrong, because following code line after "if" condition should execute only if it is true.
+7. In a switch statement, what happens if you omit break?
+If there's no default statement, and no case match is found, none of the statements in the switch body get executed. 
+8. The four keywords in a switch statement are switch, case, break, and default. Explain what each
+keyword does. 
+A switch statement causes control to transfer to one labeled-statement in its statement body, depending on the value of expression
+Control passes to the case statement whose constant-expression value matches the value of expression.
+You can use the break statement to end processing of a particular labeled statement within the switch statement.
+The default statement is executed if no case constant-expression value is equal to the value of expression.
+
+9. Look at the source listing below. It contains two methods: recurr1() and recurr2(). There is a
+Significant difference between the two methods. What is it? Recurr1() is assigned a data type int but recur 2() isn’t. 
+10. (Not in book) What is a recursive method? Using a language you know (such as English), write a
+recursive method that adds up the integers in a list of integers. The input to the method is a list of
+integers and the output is a scalar value representing a sum.  
+A Method can call another methods but it can also call itself. 
+N! = N(n-1)x(n-2)….
+
+11. (Not in book) Read a short summary of De Morgan's laws.
+(a) Explain how this statement, "It's not snowing or raining," is the same as this statement, "It's not
+snowing and it's not raining." Not (A or B) = not And not B
+(b) Explain how this statement, "I'm not running and walking," is the same as this statement, "I'm
+not running or I'm not walking." Not (A and B)= not A or not B. 

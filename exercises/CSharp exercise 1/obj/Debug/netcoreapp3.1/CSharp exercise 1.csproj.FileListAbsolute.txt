@@ -1,0 +1,13 @@
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.exe
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.deps.json
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.runtimeconfig.json
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.runtimeconfig.dev.json
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.dll
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\bin\Debug\netcoreapp3.1\CSharp exercise 1.pdb
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.csprojAssemblyReference.cache
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.AssemblyInfoInputs.cache
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.AssemblyInfo.cs
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.csproj.CoreCompileInputs.cache
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.dll
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.pdb
+C:\Users\cmorl\MSSA2021\ISTA220\exercises\CSharp exercise 1\obj\Debug\netcoreapp3.1\CSharp exercise 1.genruntimeconfig.cache

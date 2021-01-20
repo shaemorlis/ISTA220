@@ -1,0 +1,23 @@
+Shaevaun Morlis
+C# HW#1
+
+1. What is a console app? A console application is an application that runs in a Command Prompt window instead of providing a graphical user interface (GUI).
+2. List two differences between .NET Framework and .NET Core. Note that in this class, we will be
+writing C# applications in .NET Framework and ASP.NET applications in NET Core.
+You use the .NET Core template for building portable applications that can also run on other operating systems, such as Linux. However, .NET Core applications do not provide the range of features available to the complete .NET Framework.
+3. What does Main() (the main method) do in a console application? The Main method is the entry point of an executable program; it is where the program control starts and ends. Main is declared inside a class or struct. Main must be static and it need not be public
+4. Describe these three files: TextHello.sln, TextHello.csproj, and AssemblyInfo.cs.
+Solution file names have the .sln suffix, such as PrimitiveDataTypes.sln. A solution can contain one or more projects. Visual C# project files have the .csproj suffix. If you open a project rather than a solution, Visual Studio 2017 automatically creates a new solution file for it. This situation can be confusing if you are not aware of this feature because it can result in you accidentally generating multiple solutions for the same project. AssemblyInfo.cs is a special file that you can use to add attributes to a program, such as the name of the author, the date the program was written, and so on. You can specify additional attributes to modify the way in which the program runs. 
+5. What is the purpose of a namespace? Namespaces help solve this problem by creating a container for items such as classes. Two classes with the same name will not be confused with each other if they live in different namespaces. 
+6. Describe specifically what using statements do.
+The using statement defines a scope at the end of which an object will be disposed. The using directive creates an alias for a namespace or imports types defined in other namespaces. The using static directive imports the members of a single class.  
+7. What is the entry point for a console app? What is the entry point for a UWP app? The Main method designates the program’s entry point. This method should be defined in the manner specified in the Program class as a static method; otherwise, the .NET Framework might not recognize it as the starting point for your application when you run it. 
+8. What is an assembly? An assembly is a file that usually has the .dll file name extension, although strictly speaking, executable programs with the .exe file name extension are also assemblies. 
+9. How many different versions of the WriteLine() method does the Console class contain? WriteLine is an overloaded method, meaning that the Console class contains more than one method named WriteLine—it provides 19 different versions of this method. You can use each version of the WriteLine method to output different types of data.
+10. What is the relationship between an assembly and a namespace? A single assembly can contain classes defined in many namespaces, and a single namespace can span multiple assemblies
+11. What is a graphical app? These templates are referred to as Universal Windows Platform (UWP) apps because they enable you to create apps that function on any device that runs Windows, such as desktop computers, tablets, and phones.
+12. What does Build do? This action compiles the C# code, resulting in a program that you can run.
+13. (Not in book) What is bytecode? What is Microsoft CIL? Do you think that CIL is bytecode? Why
+or why not?
+When you compile a C# application, the compiler converts your C# code into a set of instructions using a pseudo-machine code called the Common Intermediate Language (CIL). Bytecode is program code that has been compiled from source code into low-level code designed for a software interpreter. It may be executed by a virtual machine (such as a JVM) or further compiled into machine code, which is recognized by the processor. CIL aka MSIL is intended to be human-readable. Java bytecode is not. Think of Java bytecode as being machine code for hardware that does not exist (but which JVMs emulate). CIL is more like assembly language - one step from machine code, while still being human-readable
+14. What does Debug do? Debugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code that can cause it to behave unexpectedly or crash. To prevent incorrect operation of a software or system, debugging is used to find and resolve bugs or defects. 

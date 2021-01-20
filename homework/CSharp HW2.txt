@@ -1,0 +1,22 @@
+Shaevaun Morlis
+C# HW#2
+1. What is a local variable? A local variable, in C#, is a type of variable declared by local variable declaration at the beginning of a block the variable is intended to be local to. It can also occur in a for-statement, a switch-statement, a foreach statement, a using statement or a specific-catch statement or using statement.
+2. What is a statement? A statement is a command that performs an action, such as calculating a value and storing the result or displaying a message to a user. You combine statements to create methods.
+3. What is an identifier? Identifiers are the names that you use to identify the elements in your programs, such as namespaces, classes, methods, and variables. 
+4. What is a keyword? identifiers are called keywords, and each has a particular meaning keywords are class, namespace, and using. 
+5. What is a variable? A variable is a storage location that holds a value. You can think of a variable as a box in the computer’s memory that holds temporary information. You must give each variable in a program an unambiguous name that uniquely identifies it in the context in which it is used. 
+6. How do you declare a variable? How do you assign a value to a variable? Can you have a variable that
+does not have a value? Can you declare and initialize a variable in a single statement? When you declare a variable, you must specify the type of data it will hold. The equal sign (=) is the assignment operator, which assigns the value on its right to the variable on its left.  
+7. What does Visual Studio do when you open a project (a .csproj file) without opening the solution (a
+.sln  file)? Why might this be a problem?  If you open a project rather than a solution, Visual Studio 2017 automatically creates a new solution file for it. This situation can be confusing if you are not aware of this feature because it can result in you accidentally generating multiple solutions for the same project.
+8. How are arithmetic operators and variable types related? Arithmetic Operators are used to perform mathematical calculations. These assignment operators assign values to variables.
+9. How do you turn an integer into a string? The int data type provides the int.Parse method, which does precisely this. 
+10. How do you turn a string into an integer? ToString method of the int type does this. 
+11. What is the difference between precedence and associativity? Give an example where this makes a
+difference. Precedence governs the order in which an expression’s operators are evaluated. Consider the following expression, which uses the + and * operators. What happens when an expression contains different operators that have the same precedence? This is where associativity becomes important. Associativity is the direction (left or right) in which the operands of an operator are evaluated. Consider the following expression that uses the / and * operators. 
+For example: 4/2 * 6
+ but the order in which the operators in the expression are applied is important because you can get two different results: the associativity of the operators determines how the expression is evaluated. The  * and / operators are both left associative, which means that the operands are evaluated from left to right. In this case, 4/2 will be evaluated before multiplying by 6, giving the result 12.
+12. What is the definite assignment rule? You must assign a value to a variable before you can use it; otherwise, your program will not compile.
+13. How are the prefix and postfix increment and decrement operators evaluated differently? Placing the operator symbol before the variable is called the prefix form of the operator, and using the operator symbol after the variable is called the postfix form.
+14. What is string interpolation? which renders many uses of the  + operator obsolete for concatenating strings. A common use of string concatenation is to generate string values that include variable values.
+15. What does the var keyword do? You declare a variable in C# by using the var keyword

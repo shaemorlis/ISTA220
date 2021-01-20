@@ -1,0 +1,32 @@
+Shae Morlis
+C# HW#3
+
+1. What is a method? a named sequence of statements. 
+2. (Not in book) What is the difference between a function and a procedure/subprocedure/subroutine?
+Functions returning values after processing are called Functions and functions returning no value are called Sub Procedures. The Sub procedure performs a task and then returns control to the calling code, but it does not return a value to the calling code. 
+3. What does a return statement do? The return statement terminates execution of the method in which it appears and returns control to the calling method. It can also return an optional value. If the method is a void type, the return statement can be omitted. 
+4. What is an expression bodied method? An expression-bodied method consists of a single expression that returns a value whose type matches the method's return type, or, for methods that return void , that performs some operation 
+5. What is the scope of a variable? Scope refers to the visibility of variables. In other words, which parts of your program can see or use it. 
+6. What is a field? A field, in C#, is a member of a class or an object of any type that represents a memory location for storing a value. 
+7. What is an overloaded method? With method overloading, multiple methods can have the same name with different parameters. 
+8. How do you call a method that requires arguments? The parentheses () after method names are there in case you need to give the method actual parameters or arguments (some data) to do its job. 
+9. How do you write a method, that is, specify the method definition, that requires a parameter list?
+10. How do you specify a parameter as optional when defining a method? By using the params keyword to indicate that a parameter is a parameter array, you allow your method to be called with a variable number of arguments. The parameter tagged with the params keyword must be an array type, and it must be the last parameter in the method's parameter list. 
+11. How do you pass a argument to a method as a named parameter? Arguments to method calls are usually passed by value, which means the value of the argument expression is copied into the target parameter.
+12. How do you return values from a method? Can you return multiple values from a method, and if so,
+how? 
+13. What is a tuple? How do you define a method that returns multiple values? Give an example of a
+method that returns multiple values other than the example in the book. You declare a method's return type in its method declaration. Within the body of the method, you use the return statement to return the value. 
+public boolean isEmpty() {
+    if (items.size() == 0) {
+        return true;
+    } else {
+        return false;
+14. Examine the method definition on page 83 of the book. Desk check the execution of this method.
+What do you discover? This is called recursion. function that calls another function is normal but when a function calls itself then that is a recursive function. In this example if the value is 1 return 1 if not multiply it by the factor minus 1. 
+
+15. How does the compiler resolve an ambiguity between named arguments and optional parameters?
+Naming parameters in the calling code removes any possible ambiguity among parameters that have the same type. 
+16. The book states: \A key feature of C# and other languages designed for the .NET Framework is the
+ability to interoperate with applications and components written with other technologies." What is
+the COM and how is the CLR dependent on the COM. COM stands for "Common object modal". com is a kind of specification to make the component reusable. The Common Language Runtime (CLR) exposes COM objects through a proxy called the Runtime Callable Wrapper (RCW).
