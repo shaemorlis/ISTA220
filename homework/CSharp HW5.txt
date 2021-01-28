@@ -1,0 +1,42 @@
+Shae Morlis
+C#HW5
+1.	What is a compound assignment operator? How does it work?
+
+The compound assignment operators consist of a binary operator and the simple assignment operator. They perform the operation of the binary operator on both operands and store the result of that operation into the left operand, which must be a modifiable value.
+2.	List all the compound assignment operators.
+Operator	Left operand	Right operand
++= or -=	Arithmetic	Arithmetic
++= or -=	Pointer	Integral type
+*=, /=, and %=	Arithmetic	Arithmetic
+<<=, >>=, &=, ^=, and |=	Integral type	Integral type
+Operator	Example	Equivalent expression
++=	index += 2	index = index + 2
+-=	*(pointer++) -= 1	*pointer = *(pointer++) - 1
+*=	bonus *= increase	bonus = bonus * increase
+/=	time /= hours	time = time / hours
+%=	allowance %= 1000	allowance = allowance % 1000
+<<=	result <<= num	result = result << num
+>>=	form >>= 1	form = form >> 1
+&=	mask &= 2	mask = mask & 2
+^=	test ^= pre_test	test = test ^ pre_test
+|=	flag |= ON	flag = flag | ON
+
+
+3. List two ways to increment a numeric variable by 5. List two ways to decrement a numeric variable by
+50.
+++X, int X=5, or +=5
+ --X,  int X=50, count --50
+4. How long does a while loop run?
+You use a while statement to run a statement repeatedly for as long as some condition is true.
+5. What is an iteratiion variable? (Not in book)
+The iterator (loop) variable is the variable which stores a portion of the iterable when the for loop is being executed. Each time the loop iterates, the value of the iterator variable will change to a different portion of the iterable.
+6. What happens if you don't change the loop variable in the body of the while loop block? You create "infinite loops" that never stop the loop you must do something to change the value  
+7. How many parts does a for loop statement have? Can you omit any of them? Can you omit all of
+them? What happens if you omit all of them?
+A for-loop has two parts: a header specifying the iteration, and a body which is executed once per iteration. The header often declares an explicit loop counter or loop variable, which allows the body to know which iteration is being executed. For-loops are typically used when the number of iterations is known before entering the loop. For-loops can be thought of as shorthands for while-loops which increment and test a loop variable. You can omit any of the three parts of a for statement. If you omit the Boolean expression, it defaults to true, so the following for statement runs forever.
+8. How do you guarantee that a loop runs at least once? By making it a do while loop. The condition is tested at the end of the block instead of the beginning, so the block will be executed at least once. 
+9. What does the break statement do? The break statement terminates the closest enclosing loop or switch statement 
+10. What does the continue statement do? The continue statement passes control to the next iteration of the nearest enclosing do , for , or while statement in which it appears, bypassing any remaining statements in the do , for , or while statement body.  
+11. (Thought question) Can you think of any reason why you would want to have an infinite loop? An
+infinite loop" is a loop without an update variable that in elect runs forever. As you will see, these
+kinds of loops are written intentionally to perform various kinds of tasks. Infinite loops can be used for an embedded system. They are used to keep the embedded system functional. If infinite loop is not used, after executing the task once, the embedded system will come to hault which is not the desired condition.
