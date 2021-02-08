@@ -1,0 +1,16 @@
+Shae Morlis
+C# HW8
+1. What is the difference between deep copy and shallow copy? Shallow Copy: copies whats on the stack. Deep Copy: follow the pointer from the heap and brings it to stack. 
+2. What is the value of a reference after you declare and initialize it? reference is bound to the object identified by the value or to its base class sub-object.
+3. How do you declare a value type? You can declare a value type by using the reserved keyword, for example, Decimal. You can also use the New keyword to initialize a value type.
+4. How do you declare a reference type? You declare a reference type by using the keywords class, interface, delegate and record. 
+5. Does C# allow you to assign NULL to a value type? No, you cant assign null as a reference type. 
+Season? colorful = null; 
+6. Can you assign a nullable value type to a non-nullable variable of the same type? Why or why not? No, because you cannot assign a nullable type to a non-nullable type. 
+7. What is the difference between the stack and the heap? Recall that a value type variable holds its value directly on the stack, whereas a reference type variable holds a reference to an object on the heap. 
+8. What does it mean when we say that all classes are specialized types? Simply speaking class is a specialized type used to encapsulate properties and behavior of an object. 
+9. What does ref do?  The ref keyword in C# is used for passing or returning references of values to or from Methods. Basically, it means that any change made to a value that is passed by reference will reflect this change since you are modifying the value at the address and not just the value. 
+10. What does out do? The out is a keyword in C# which is used for the passing the arguments to methods as a reference type. It is generally used when a method returns multiple values. Important Points: It is similar to ref keyword. 
+11. Describe boxing and unboxing in your own words. Boxing- wrapping a value type within an object.
+Unboxing- extracting the value from the object. 
+12. What does cast do? Type casting is a way to convert a variable from one data type to another data type. 

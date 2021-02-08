@@ -1,0 +1,21 @@
+Shae Morlis
+C# HW7
+1. What is a class? According to the book, what does a class \arrange A class is like a blueprint of a specific object. A class defines the kinds of data and the functionality their objects will have
+2. What are the two purposes of encapsulation? encapsulation is sometimes referred to as information hiding. Encapsulation actually has two purposes: To combine methods and data within a class; in other words, to support classification to control the accessibility of the methods and data; in other words, to control the use of the class. 
+3. How do you instantiate an instance of a class? How do you access that instance? When you create an object, you are creating an instance of a class, therefore "instantiating" a class. The new operator requires a single, postfix argument: a call to a constructor. 
+4. What is the default access of the fields and methods of a class? How do you change the default? By default, the access modifier for a class is internal. That means to say, a class is accessible within the same assembly. But if we want the class to be accessed from other assemblies then it has to be made public. 
+5. What is the syntax for writing a constructor? Whenever you create a class for example public class User. Method user will become a constructor of our class. 
+6. What is the difference between class fields and methods, and instance fields ad methods? How do you create class fields and methods? static methods are also called class methods. However, static fields aren’t usually called class fields; they’re just called static fields. By prefixing the field with the const keyword, you can declare that a field is static but that its value can never change. 
+7. How do you bring a static class in scope? Why would you want to bring a static class in scope?
+A static class can contain only static members. (All objects that you create by using the class share a single copy of these members.) The purpose of a static class is purely to act as a holder of value methods and fields.
+8. Can you think of a good reason to create an anonymous class? What is it? Anonymous classes enable you to make your code more concise. They enable you to declare and instantiate a class at the same time. They are like local classes except that they do not have a name. Use them if you need to use a local class only once. 
+9. What is polymorphism as this term is used in computer science? This is not in the book. It’s when classes have different functionality while sharing the same interface. Overloading is another form of polymorphism. 
+10. What is message passing as this term is used in computer science? This is not in the book. Method calls. It's called message passing to distinguish it from the imperative notion of "calling a function", and to reinforce the idea that the receiving object decides what to do. 
+11. What was the first object-oriented programming language? Simula (1967) is generally accepted as being the first language with the primary features of an object-oriented language. It was created for making simulation programs, in which what came to be called objects were the most important information representation. 
+12. Consider this quote by Alexander Stepanov:
+I find OOP technically unsound. It attempts to decompose the world in terms of interfaces
+that vary on a single type. To deal with the real problems you need multisorted algebras
+| families of interfaces that span multiple types. I find OOP philosophically unsound. It
+claims that everything is an object. Even if it is true it is not very interesting | saying that
+everything is an object is saying nothing at all.
+Who is Alexander Stephanov? What do you think about this quote? Alexander Alexandrovich Stepanov is a Russian-American computer programmer, best known as an advocate of generic programming and as the primary designer and implementer of the C++ Standard Template Library. He is credited with the notion of concept. I think he’s saying there’s more to OOP than saying it’s an object it’s composed of formulas that solves problems.  
