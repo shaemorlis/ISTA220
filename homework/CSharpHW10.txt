@@ -1,0 +1,38 @@
+Shaevaun Morlis
+C# HW 10
+
+1. What does an array look like in memory? The items in an array live in a contiguous block of memory and are accessed by using an index, 
+unlike fields in a structure or class, which are accessed by name.
+
+2. Where is memory allocated to hold an array, on the stack or on the heap? 
+I think that array of value types is not value type by itself that's why it's stored in the heap like any composite objects. 
+
+3. Where is memory allocated to hold an array reference, on the stack or on the heap? 
+You can pass the instance of a value type to a method expecting an object (ref class). 
+In this case boxing and unboxing happens. Value type arrays do not require boxing or unboxing. Therefore, it is on the heap. 
+
+4. Can an array hold values of different types? This is a trick question, the answer is, \It depends." What
+determines the types that an array can hold? Arrays can contain any type of element value (primitive types or objects), 
+but you can't store different types in a single array. You can have an array of integers 
+or an array of strings or an array of arrays, but you can't have an array that contains, for example, both strings and integers.  
+
+5. Describe the syntax of the condition for a foreach loop.
+foreach(data_type var_name in collection_variable)
+
+6. How do you make a deep copy of an array?  
+If you want to make a deep copy, you need to use new to create a new instance of each object in the array. 
+
+7. What is the difference in the syntax between a multi-dimensional array and an array of arrays?
+Array of arrays (jagged arrays) are faster than multi-dimensional arrays and can be used more effectively. Multidimensional arrays have nicer syntax. 
+
+8. What is the difference in the uses for a multi-dimensional array and an array of arrays? In other words, what determines whether you would use one as opposed to the other?
+Multi-dimensional arrays are declared with comma-separated syntax to denote the multi-dimension.
+ 
+9. How do you flatten" a multidimensional array? In other words, take something that looks like a
+Matrix [1 2 3 4 5 6 7 8 9 ] and turn it into an array [1; 2; 3; 4; 5; 6; 7; 8; 9]? Write the code to do this in English.  
+To flatten an array means to reduce the dimensionality of an array. In simpler terms, it means reducing a multidimensional array to a specific dimension. let arr = [[1, 2],[3, 4],[5, 6, 7, 8, 9],[10, 11, 12]]; and we need to return a new flat array with all the elements of the nested arrays in their original order. 
+
+10. (Thought question) When we use a for loop, we can change the values of the array elements inside
+the loop. When we use a foreach loop, we cannot change the values of the array elements inside the
+loop. Why not? How is for different from foreach?
+Using for loop we can iterate a collection in both direction, that is from index 0 to 9 and from 9 to 0. But using for-each loop, the iteration is possible in forward direction only. ... When it goes to loop through, foreach copies the current array to a new one for the operation. 

@@ -1,0 +1,51 @@
+Shae Morlis
+C#HW12
+
+1. How does inheritance promote the principle of don't repeat yourself (DRY)?
+The Don't Repeat Yourself (DRY) principle is a common principle across programming paradigms, but it is especially important in OOP. 
+According to the principle: Every piece of knowledge or logic must have a single, unambiguous representation within a system.
+
+2. What is the syntax of a derived class that inherits from a base class?
+class DerivedClass : BaseClass
+
+3. Do all user defined types (classes and structs) inherit from some base class? If so, what is it?
+There is no inheritance for structs as there is for classes. A struct cannot inherit from another struct or class, 
+and it cannot be the base of a class. Structs, however, inherit from the base class Object.
+
+4. What happens if you do not have a default constructor in a base class when creating a derived class?
+If a base class does not offer a default constructor, the derived class must make an explicit call to a base constructor by using base.
+
+5. Can you assign a variable of a derived class to another variable of its base class? Why or why not?
+No it is not possible, hence your runtime error. But you can assign an instance of a derived class to a variable of base class type.
+
+6. Can you assign a variable of a derived class to another variable of of a derived class of its base class?
+Why or why not? Yes, you can assign an instance of a derived class to a variable of base class type.
+
+7. Can you assign a variable of a base class to another variable of a derived class? Why or why not?
+You can cast a variable that is typed as the base-class to the type of a derived class; however, 
+by necessity this will do a runtime check, to see if the actual object involved is of the correct type. 
+Once created, the type of an object cannot be changed (not least, it might not be the same size).
+
+8. Under what circumstances would you want to use the new keyword when defining a method in a
+derived class?
+
+'new' keyword is needed to allow you to 'override' non-virtual and static methods
+
+9. What is a virtual method? Why would you want to define a virtual method?
+A method that is intended to be overridden is called a virtual method. 
+Overriding a method is a mechanism for providing different implementations 
+of the same method—the methods are all related because they are intended to perform the same task, but in a class-specific manner. 
+
+10. What does override do? Why does it do it?
+declare another implementation of that method
+
+11. How do you define an extension type?
+Extension methods enable you to "add" methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. 
+
+12. Why do you define an extension type?
+Extension methods are static methods, but they're called as if they were instance methods on the extended type.
+
+13. (Not in book) Explain the Liskov substitution principle.
+The Liskov Substitution Principle in practical software development. 
+The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. 
+That requires the objects of your subclasses to behave in the same way as the objects of your superclass.

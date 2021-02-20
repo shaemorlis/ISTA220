@@ -1,0 +1,57 @@
+Shae Morlis
+HW#11
+
+1. What is a parameter array?
+A parameter array can be used to pass an array of arguments to a procedure. 
+You don't have to know the number of elements in the array when you define the procedure. 
+You use the ParamArray keyword to denote a parameter array.
+
+2. How do you define a method that takes an arbitrary number of arguments?
+You can take an arbitrary number of arguments with a name by defining an argument in the definition with two * in front of it
+3. How do you call a method that takes an arbitrary number of arguments?
+By using the params keyword, you can specify a method parameter that takes a variable number of arguments. 
+The parameter type must be a single-dimensional array. No additional parameters are permitted after the params keyword in a method declaration,
+and only one params keyword is permitted in a method declaration.
+
+4. Why can't you use an array to pass an arbitrary number of arguments to a method?
+Arrays can be passed as arguments to method parameters. 
+Because arrays are reference types, the method can change the value of the elements.
+
+5. How many parameters can a method have?
+You can add as many parameters as you want, just separate them with a comma.
+
+6. Do parameter arguments have to have the same type?
+When you invoke a method, the arguments used must match the declaration's parameters in type and order.
+
+7. What is the difference between a method that takes a parameter argument and one that takes optional
+arguments?
+the concept of optional parameters was introduced that allows developers to declare parameters as optional. 
+That means, if these arguments are not passed, they will be ommitted from the execution. Optional parameters are not mandatory.
+Named Parameters allow developers to pass a method arguments with parameter names. 
+Prior to these this feature, the method parameters were passed using a sequence only.
+
+8. How do you define a method that takes different (and arbitrary) types of arguments?
+The params keyword lets you specify a method parameter that takes a variable number of arguments.
+
+9. Write a method that accepts any number of arguments of a given type.
+
+public class MyClass
+{
+    public static void UseParams(params int[] list)
+    {
+        for (int i = 0; i < list.Length; i++)
+        {
+            Console.Write(list[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
+    public static void UseParams2(params object[] list)
+    {
+        for (int i = 0; i < list.Length; i++)
+        {
+            Console.Write(list[i] + " ");
+        }
+        Console.WriteLine();
+    }
+10. Write a method that accepts any number of arguments of any type.
